@@ -15,7 +15,10 @@ dist-ssr
 .firebaserc
 firebase.json
 
-
+# Exclure tous les fichiers .firebase, .firebaserc, firebase.json mais garder une exception pour ces fichiers
+!.firebase/
+!.firebaserc
+!firebase.json
 
 # Editor directories and files
 .vscode/*
